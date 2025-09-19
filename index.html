@@ -1,39 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Аукцион</title>
+
+    <!-- Сначала шрифты -->
+    <link rel="stylesheet" href="fonts/fonts.css" />
+
+    <!-- Потом глобальные стили и свои -->
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="footer">
-      <img class="socials" src="./images/card-lot-01.jpg" alt="test"/>
-      <div class="menu">
-        <div class="view">
-          <div class="text-wrapper">об аукционе</div>
-          <img class="line" src="./images/card-lot-01.jpg" alt="test" />
-        </div>
-        <div class="div">
-          <div class="text-wrapper-2">посмотреть лоты</div>
-          <img class="img" src="./images/card-lot-01.jpg" alt="test" />
-        </div>
-        <div class="text-wrapper-3">главная</div>
-      </div>
-      <div class="contacts">
-        <div class="element">
-          <img class="line-2" src="./images/card-lot-01.jpg" alt="test" />
-          <div class="text-wrapper-4">+9 999 555 5555</div>
-        </div>
-        <div class="info-sobaka-ge">
-          <img class="line-2" src="./images/card-lot-01.jpg" alt="test" />
-          <div class="text-wrapper-4">info@sobaka.ge</div>
-        </div>
-        <div class="text-wrapper-5">наб. Принсенграхт 263-265, Амстердам</div>
-      </div>
-    </div>
+    <header class="header">
+      <a href="index.html" class="logo">
+        <img src="./images/card-lot-01.jpg" alt="Логотип аукциона" />
+      </a>
+    </header>
+
+    <main>
+      <section class="footer">
+        <img class="socials" src="./images/card-lot-01.jpg" alt="Иконки соцсетей"/>
+        
+        <nav class="menu">
+          <div class="view">
+            <a href="#about" class="text-wrapper">об аукционе</a>
+            <img class="line" src="./images/card-lot-01.jpg" alt="" />
+          </div>
+          <div class="div">
+            <a href="#lots" class="text-wrapper-2">посмотреть лоты</a>
+            <img class="img" src="./images/card-lot-01.jpg" alt="" />
+          </div>
+          <a href="index.html" class="text-wrapper-3">главная</a>
+        </nav>
+
+        <address class="contacts">
+          <div class="element">
+            <img class="line-2" src="./images/card-lot-01.jpg" alt="" />
+            <a href="tel:+99995555555" class="text-wrapper-4">+9 999 555 5555</a>
+          </div>
+          <div class="info-sobaka-ge">
+            <img class="line-2" src="./images/card-lot-01.jpg" alt="" />
+            <a href="mailto:info@sobaka.ge" class="text-wrapper-4">info@sobaka.ge</a>
+          </div>
+          <div class="text-wrapper-5">наб. Принсенграхт 263-265, Амстердам</div>
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Аукцион</p>
+    </footer>
   </body>
 </html>
-
-
-
